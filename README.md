@@ -8,7 +8,7 @@ A **Python Tkinter-based supermarket management system** with Admin, Employee, a
 
 ### 1. Database
 
-1. Import the `shop_db` **structure and data** into MySQL.
+1. Import the `db/shop_db` **structure and data** into MySQL.
 2. Run the following command to allow updates in the database:
 
 ```sql
