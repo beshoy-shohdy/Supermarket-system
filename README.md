@@ -52,4 +52,4 @@ python main.py
 * **Admin Panel**: Add employees, view total net profit.
 * **Employee Panel**: Add customers, add goods, change discounts, handle sales transactions.
 * **POS System**: Add items to cart, calculate cashback, manage payment.
-* **Login System**: Separate logins for admin,
+* **Login System**: Separate logins for admin, employee, and customer.
