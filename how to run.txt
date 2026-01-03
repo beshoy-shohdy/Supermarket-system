@@ -1,0 +1,10 @@
+import shop_db in MySQL as structure and data
+
+run that in database
+SET SQL_SAFE_UPDATES = 0;
+
+run that in cmd to install connector
+pip install mysql-connector-python
+
+run main.py on 3.13.5
+ 
