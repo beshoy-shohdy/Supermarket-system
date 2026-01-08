@@ -69,14 +69,14 @@ def login():
     showinfo(title='Login Status', message=message)
 
     name_check_cursor.close()
-    db.close()
-
 
     if cont_check == 1 and user_type.lower() == "customer":
         root.destroy()
+        db.close()
         store.go(pass_check[0])
     elif cont_check == 1 and user_type.lower() == "employee":
         root.destroy()
+        db.close()
         employee.employee_panel(username)
 
 
