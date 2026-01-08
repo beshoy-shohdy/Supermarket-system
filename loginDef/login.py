@@ -104,7 +104,7 @@ employee_type_var = tk.IntVar(value=0)
 main_frame = ttk.Frame(root, padding="10 10 10 10")
 main_frame.pack(fill='both', expand=True)
 
-ttk.Label(main_frame, text="First name:").grid(column=0, row=0, sticky=tk.W, pady=5, padx=5)
+ttk.Label(main_frame, text="User name:").grid(column=0, row=0, sticky=tk.W, pady=5, padx=5)
 username_entry = ttk.Entry(main_frame, width=30, textvariable=username_var)
 username_entry.grid(column=1, row=0, sticky=tk.W, pady=5, padx=5)
 username_entry.focus()
