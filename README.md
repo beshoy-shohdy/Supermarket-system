@@ -44,6 +44,7 @@ python main.py
 * Ensure **MySQL server** is running before starting the application.
 * The project requires **Python 3.13.5** for full compatibility.
 * All GUI components are built with **Tkinter**.
+* To access the administrator account, Username: admin Password: admin123
 
 ---
 
